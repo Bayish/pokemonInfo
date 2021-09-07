@@ -1,0 +1,36 @@
+body {
+    max-width: 1170px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 60%;
+}
+#preloader {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.3) url('../images/1494.gif') 50% 50% no-repeat;
+    display: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto 0;
+}
+
+#left{
+    border: none;
+    padding: 20px;
+    background: url("../images/angle-double-left-solid.svg") 0 40%;
+    margin-right: auto;
+    width: 72px;
+}
+#right{
+    border: none;
+    padding: 20px;
+    background: url("../images/angle-double-right-solid.svg") 0 50%;
+    margin-left: auto;
+    width: 72px;
+}
